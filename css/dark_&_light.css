@@ -1,0 +1,19 @@
+body.light {
+  background-image: url('../img/background-light.jpg');
+  background-size: cover;
+  height: 100vh;
+  color: black;
+}
+
+
+body.dark {
+  background-image: url('../img/background-dark.jpg');
+  transition: background-image 0.5s ease-in-out;
+}
+
+
+@media screen and (max-width: 800px) {
+  body.light {
+  
+  }
+}
