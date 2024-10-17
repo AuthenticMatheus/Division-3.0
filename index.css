@@ -266,13 +266,19 @@ button {
 
 footer {
   position: fixed;
-  height: 12vh;
-  
+  height:auto;
+
 }
  
  .insta img {
   height: 0px;
   width: 0px;
+ }
+
+ button {
+   width: auto;;
+   height: auto;
+
  }
 }
 
