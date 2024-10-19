@@ -238,14 +238,14 @@ text-decoration: none; }
 
 button {
   background-color: var(--primary-color);
-  border: 1px solid blue;
+  border: 1px solid var(--accent-color);
   display: flex;
   padding:.3em;
   align-self: center;
   cursor: pointer;
   border-radius: 50px;
   transition:.3s ease-in-out;
-  color: white;
+  color: var(--text-color);
   width: 200px; /* Largura do botão */
   height: 40px;  /* Altura do botão */
   font-size: 20px; /* Tamanho da fonte */
