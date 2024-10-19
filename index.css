@@ -1,3 +1,13 @@
+
+:root {
+    --primary-color: #FF8C00; /* Dark Orange */
+    --secondary-color: #1a1a1a; /* Almost Black */
+    --accent-color: #FF4500; /* Orange Red */
+    --bg-color: #F5F5F5; /* Light Gray */
+    --text-color: #333;
+    --white: #FFFFFF;
+  }
+
 /* temporário */
 
 body {
@@ -227,7 +237,7 @@ display: flex;
 text-decoration: none; }
 
 button {
-  background-color: blue;
+  background-color: var(--primary-color);
   border: 1px solid blue;
   display: flex;
   padding:.3em;
