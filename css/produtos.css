@@ -373,6 +373,29 @@ padding-left: 2em;
 
 @media only screen and (max-width: 600px) {
 
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+  body {
+      font-size: 14px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  footer {
+    position: static;
+    width: 100%;
+  }
+
   nav {
       display: flex;
       font-size: 15px;
@@ -387,28 +410,49 @@ padding-left: 2em;
     width: 100%; /* O card vai ocupar toda a largura disponível */
     height: auto; /* Ajusta a altura conforme o conteúdo */
     margin: 4px;
+    width: 150px;
+    height: 320px; 
+    margin-left: 0;
+    }
+  
+    .logo img {
+      float: left ;
+      z-index: 1;
+      padding: 20px 20px;
+    
+    }
+  
+  
+  .sidebar, .sidebar2 {
+    display: none;
   }
-
-  .logo img {
-    float: left ;
-    z-index: 100;
+  
+  
+  .carousel {
+   color: red;
+   background-color: rgb(0, 0, 0);
+   width: auto;
+   height: 200px;
+  }
+  
+  .carousel img {
+    justify-items: center;
+    width: auto;
+    height: 200px;
+   }
+  
+  .button_pr {
+    top: 70%;
+      left: 25%;
+  }
+  
+  .produtos{
+    justify-content: end;
+    grid-template-columns: repeat(2, 1fr);
+  }
   
   }
 
-    .search-filter {
-      flex-direction: column;
-    }
-    .filter-select {
-      margin-left: 0;
-      margin-top: 1em;
-      width: 100%;
-    }
 
-    body {
-      overflow-x: hidden; /* Impede a rolagem horizontal */
-    }
-    
-
-  }
-
+  
   
