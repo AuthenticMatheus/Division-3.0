@@ -398,6 +398,21 @@ nav {
 padding-left: 2em;
 }
 
+.back{
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  color: #fff;
+  background-color:orange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
 
 
 @media only screen and (max-width: 600px) {

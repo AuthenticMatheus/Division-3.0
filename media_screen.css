@@ -19,6 +19,10 @@
   bottom: -40%;
   }
 
+  header {
+    position: relative;
+  }
+
 }
   
   /* Telas médias (tablets) */

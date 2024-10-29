@@ -2,6 +2,21 @@
   background-color: orangered;
 }
 
+
+div button   {
+margin: 2px;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #f90; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
 h1 {
   color: white ;
 }
@@ -1701,7 +1716,7 @@ h1 {
     font-size: inherit;
     font-weight: inherit;
     line-height: 35px;
-    vertical-align: middle; 
+   
     
     -webkit-transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
@@ -6752,8 +6767,6 @@ h1 {
 
  @media only screen and (max-width: 720px) {
 
- .loading #yahia {
-  display:none;
- }
+ 
 
   }
