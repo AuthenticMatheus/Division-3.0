@@ -9,8 +9,8 @@ html { -ms-overflow-style: none; scrollbar-width: none; }
 body {
     margin: 0;
     font-family: Untitled Sans, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
-    background: #05060f linear-gradient(0deg,rgba(216,236,248,.06),rgba(152,192,239,.06));
-
+    background: orangered  linear-gradient(0deg,rgba(216,236,248,.06),rgba(152,192,239,.06));
+opacity: 90%;
     font-size: max(calc(var(--_size) * 0.03), 10px);
     --_factor: min(600px, 80vh);
     --_size: min(var(--_factor), 80vw);
@@ -127,13 +127,13 @@ button.contact-btn {
     padding-top: 0.3em;
 
     background: #121521;
-    color: #9dc3f7;
+    color: white;
     white-space:nowrap;
 }
 button.contact-btn::before {
     content: ''; display: block; position:absolute; left: 0; top:0; border-radius: 20em;
     width: 100%; height: 100%;
-    background: #c2ccff91 radial-gradient(farthest-side at 50% 100%, #c2ccff, transparent);
+    background: white radial-gradient(farthest-side at 50% 100%, #c2ccff, transparent);
     opacity: 0.1;
     transition: all 0.4s ease-in-out;
 }
@@ -829,11 +829,6 @@ p {
     background-clip: text;
   
     font-size: 1rem;
-    color: white ;
+    color: transparent;
   }
   
-
-  .container {
-    width: 100% 768px;
-    padding: 20px 20px; 
-  }
