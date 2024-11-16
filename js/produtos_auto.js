@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 link.href = produto.link;
                 const button = document.createElement('button');
                 button.className = 'card-button';
-                button.textContent = 'ver detalhe';
+                button.textContent = 'Comprar';
                 link.appendChild(button);
                 cardFooter.appendChild(price);
                 cardFooter.appendChild(link);
